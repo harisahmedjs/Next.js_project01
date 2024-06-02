@@ -42,7 +42,8 @@ const FeaturedCourses = () => {
                     {course.description}
                   </p>
                   <Link href={`/courses/${course.slug}`} className="text-white">
-                    Learn More
+                    Learn
+                    More
                   </Link>
                 </div>
               </BackgroundGradient>
