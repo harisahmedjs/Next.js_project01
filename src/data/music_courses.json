@@ -11,6 +11,16 @@
         "image": "/courses/guitar.jpg" 
       },
       {
+        "id": 1,
+        "title": "Bass Drum Fundamentals",
+        "slug": "guitar-fundamentals",
+        "description": "Learn the basics of playing Bass Drum with our comprehensive beginner's course.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg" 
+      },
+      {
         "id": 2,
         "title": "Piano for Beginners",
         "slug": "piano-for-beginners",
