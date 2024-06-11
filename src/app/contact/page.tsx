@@ -10,6 +10,8 @@ function MusicSchoolContactUs() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     console.log('Submitted:', { email, message });
+    setEmail('')
+    setMessage('')
   };
 
   return (
@@ -43,7 +45,7 @@ function MusicSchoolContactUs() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Your message"
-            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
+            className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700 text-white"
             rows={5}
             required
           ></textarea>
